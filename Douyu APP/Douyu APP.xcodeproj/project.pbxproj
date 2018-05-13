@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		01760C9C20A85EF100BAB352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01760C9B20A85EF100BAB352 /* AppDelegate.swift */; };
-		01760C9E20A85EF100BAB352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01760C9D20A85EF100BAB352 /* ViewController.swift */; };
 		01760CA120A85EF100BAB352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01760C9F20A85EF100BAB352 /* Main.storyboard */; };
 		01760CA320A85EF100BAB352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01760CA220A85EF100BAB352 /* Assets.xcassets */; };
 		01760CA620A85EF100BAB352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01760CA420A85EF100BAB352 /* LaunchScreen.storyboard */; };
 		01760CB120A85EF100BAB352 /* Douyu_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01760CB020A85EF100BAB352 /* Douyu_APPTests.swift */; };
 		01760CBC20A85EF100BAB352 /* Douyu_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01760CBB20A85EF100BAB352 /* Douyu_APPUITests.swift */; };
+		01FECCDB20A87A1E000C4599 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 01FECCDA20A87A1E000C4599 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		01760C9820A85EF100BAB352 /* Douyu APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Douyu APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01760C9B20A85EF100BAB352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01760C9D20A85EF100BAB352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01760CA020A85EF100BAB352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01760CA220A85EF100BAB352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01760CA520A85EF100BAB352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		01760CB720A85EF100BAB352 /* Douyu APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Douyu APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01760CBB20A85EF100BAB352 /* Douyu_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Douyu_APPUITests.swift; sourceTree = "<group>"; };
 		01760CBD20A85EF100BAB352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FECCDA20A87A1E000C4599 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		01760C9A20A85EF100BAB352 /* Douyu APP */ = {
 			isa = PBXGroup;
 			children = (
+				01FECCDA20A87A1E000C4599 /* Classes */,
 				01760C9B20A85EF100BAB352 /* AppDelegate.swift */,
-				01760C9D20A85EF100BAB352 /* ViewController.swift */,
 				01760C9F20A85EF100BAB352 /* Main.storyboard */,
 				01760CA220A85EF100BAB352 /* Assets.xcassets */,
 				01760CA420A85EF100BAB352 /* LaunchScreen.storyboard */,
@@ -233,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01760CA620A85EF100BAB352 /* LaunchScreen.storyboard in Resources */,
+				01FECCDB20A87A1E000C4599 /* Classes in Resources */,
 				01760CA320A85EF100BAB352 /* Assets.xcassets in Resources */,
 				01760CA120A85EF100BAB352 /* Main.storyboard in Resources */,
 			);
@@ -259,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01760C9E20A85EF100BAB352 /* ViewController.swift in Sources */,
 				01760C9C20A85EF100BAB352 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
